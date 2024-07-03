@@ -6,12 +6,20 @@
     "target/deploy",
     "target/idl"
   ],
+  "workspaces": [
+    "packages/**"
+  ],
   "scripts": {
     "build": "$npm_execpath clean-prebuild && anchor build",
     "clean-prebuild": "rimraf target",
     "test": "cargo-test-sbf"
   },
   "devDependencies": {
-    "rimraf": "^5.0.5"
+    "@layerzerolabs/prettier-config-next": "^2.0.1",
+    "@layerzerolabs/solhint-config": "^2.0.1",
+    "rimraf": "^5.0.5",
+    "prettier": "^3.1.0",
+    "solhint": "^4.0.0",
+    "typescript": "^4.3.5"
   }
 }
