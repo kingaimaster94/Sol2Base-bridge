@@ -7,13 +7,19 @@ seeds = false
 skip-lint = false
 
 [programs.localnet]
-oft = "HRPXLCqspQocTjfcX4rvAPaY9q6Gwb1rrD3xXWrfJWdW"
+oft = "5wQae98zgPp5KRiC7YVAxpqC8rgfDSR3sUxB11ru6zep"
+
+[programs.devnet]
+oft = "5wQae98zgPp5KRiC7YVAxpqC8rgfDSR3sUxB11ru6zep"
+
+[programs.mainnet]
+oft = "5wQae98zgPp5KRiC7YVAxpqC8rgfDSR3sUxB11ru6zep"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
