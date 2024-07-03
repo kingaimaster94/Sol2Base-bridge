@@ -7,13 +7,13 @@ seeds = false
 skip-lint = false
 
 [programs.localnet]
-oft = "5wQae98zgPp5KRiC7YVAxpqC8rgfDSR3sUxB11ru6zep"
+oft = "71Lm7pDFRYgag4RRRgHvEpSxGCDhSEZCNGT2LU89WqhN"
 
 [programs.devnet]
-oft = "5wQae98zgPp5KRiC7YVAxpqC8rgfDSR3sUxB11ru6zep"
+oft = "71Lm7pDFRYgag4RRRgHvEpSxGCDhSEZCNGT2LU89WqhN"
 
 [programs.mainnet]
-oft = "5wQae98zgPp5KRiC7YVAxpqC8rgfDSR3sUxB11ru6zep"
+oft = "71Lm7pDFRYgag4RRRgHvEpSxGCDhSEZCNGT2LU89WqhN"
 
 [registry]
 url = "https://api.apr.dev"
