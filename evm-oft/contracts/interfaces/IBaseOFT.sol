@@ -4,7 +4,7 @@ pragma solidity ^0.8.22;
 import { Ownable } from "@openzeppelin/contracts/access/Ownable.sol";
 import { OFT } from "@layerzerolabs/lz-evm-oapp-v2/contracts/oft/OFT.sol";
 
-contract MyOFT is OFT {
+contract BaseOFT is OFT {
     constructor(
         string memory _name,
         string memory _symbol,

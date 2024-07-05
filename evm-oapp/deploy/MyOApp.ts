@@ -2,7 +2,8 @@ import assert from 'assert'
 
 import { type DeployFunction } from 'hardhat-deploy/types'
 
-const contractName = 'MyOFT'
+// TODO declare your contract name here
+const contractName = 'MyOApp'
 
 const deploy: DeployFunction = async (hre) => {
     const { getNamedAccounts, deployments } = hre
@@ -36,8 +37,6 @@ const deploy: DeployFunction = async (hre) => {
     const { address } = await deploy(contractName, {
         from: deployer,
         args: [
-            'MyOFT', // name
-            'MOFT', // symbol
             endpointV2Deployment.address, // LayerZero's EndpointV2 address
             deployer, // owner
         ],
